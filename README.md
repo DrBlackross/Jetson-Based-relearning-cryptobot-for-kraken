@@ -140,6 +140,11 @@ The bot supports two trading pairs:
     📈 Recent Trades - Complete history with fee breakdown
     ⚡ Strategy Info - Aggressive settings and parameters
 
+Overnight, this is what I woke up to...
+
+<img width="976" height="932" alt="image" src="https://github.com/user-attachments/assets/0d6e3765-ef8e-4e2d-8cb2-fe20244358bc" />
+(pretty cool, works a lot faster than my RPI version of this script, but i did make it more robust)
+
 ### 🔧 Technical Architecture
 ### AI Model
 ### python based
