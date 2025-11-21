@@ -118,7 +118,7 @@ The bot supports two trading pairs:
 ### 🎯 Usage
 ##### 1. Start the Bot
 
-	python kraken-trans-bot-jetson.py
+	python kraken-transformerbot-jetson.py
 
 ##### 2. Access Web Dashboard
 
@@ -234,6 +234,10 @@ Common Issues (for me TALIB, and getting Torch in a venv with CUDA)
     Check console output for decision logic
     TensorBoard logs in ./trading_logs/
     Trade history saved to trade_history.csv
+
+#### Also to do a full reset with restart of the script (just in case you wish to purge the data and start over)
+
+	rm -f ./doge_transformer_model_best.pth ./standard_scaler_best.pkl ./doge_transformer_model_best_multiplier.txt ./doge_transformer_model_best_learning_rate.txt && rm -rf ./results/ ./logs/ ./trading_logs/ && python kraken-transformerbot-jetson.py
 
 ### 🤝 Contributing
    Fork the repository
