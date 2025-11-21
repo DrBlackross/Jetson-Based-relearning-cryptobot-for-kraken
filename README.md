@@ -8,13 +8,12 @@
 
 [transformer-base-Ai-kraken](http://https://github.com/DrBlackross/transformer-base-Ai-kraken "transformer-base-Ai-kraken")
 
-## This Script is a sophisticated AI-powered cryptocurrency trading bot featuring **double optimization**, **fee-aware trading**, and **real-time web dashboard**. Built with Transformer architecture and optimized for aggressive trading strategies on a Jetson Nano Orin.
+## This Script is a AI-powered cryptocurrency trading bot in python featuring **double optimization**, **fee-aware trading**, and **real-time web dashboard**. Built with Transformer architecture and optimized for aggressive trading strategies on a Jetson Nano Orin.
 
 ## Key things:
 Jetson Nano: You might need to build some packages from source
-CUDA Support: PyTorch should automatically detect your Jetson's GPU
+CUDA Support: PyTorch should (keyword) automatically detect your Jetson's GPU
 Memory: The bot is optimized for Jetson's limited RAM
-
 
 ## 🚀 Features
 
@@ -101,8 +100,8 @@ The bot supports two trading pairs:
     TRADING_PAIR = 'DOGEUSDT'  # or 'XBTUSDT'
     TRADE_PERCENTAGE = 0.5  # 50% position size
     
-## (NOTE: I do use my kraken account as a 'control group' for experimenting in crypto trading, and it is usually seeded from my Coinbase with 100 DOGE when I start these bots, its a CYA, AND IS ISOLATED FROM MY MAIN ACCOUNTS!)
-(Cover Your $ss, do not risk what you can't lose)
+##### (NOTE: I use my kraken account as a 'control group' for experimenting in crypto trading, and it is usually seeded from my Coinbase with 100 DOGE when I start these bots, its a CYA, AND IS ISOLATED FROM MY MAIN ACCOUNTS!)
+###### (ALWAYS Cover Your $ss, CYA, do not risk what you can't lose)
 
 
 ##### # AI Optimization
@@ -190,6 +189,9 @@ The bot supports two trading pairs:
     Live trading can result in significant financial losses
     Test thoroughly before using real money
     Use at your own risk
+### Stressing this again here
+(NOTE: I use my kraken account as a 'control group' for experimenting in crypto trading, and it is usually seeded from my Coinbase with 100 DOGE when I start these bots, its a CYA, AND IS ISOLATED FROM MY MAIN ACCOUNTS!)
+##### (ALWAYS Cover Your $ss, CYA, do not risk what you can't lose)
 
 ### 📊 Performance Metrics
 
@@ -207,47 +209,47 @@ The bot supports two trading pairs:
     Model persistence between sessions
     Performance-based model selection
 
-###🐛 Troubleshooting
+### 🐛 Troubleshooting
 Common Issues (for me TALIB, and getting Torch in a venv with CUDA)
 
-####TA-Lib installation fails (always a headache)
+#### TA-Lib installation fails (always a headache)
         Use pre-compiled wheels for your platform
         Ensure system dependencies are installed
 
-####Kraken API errors
+#### Kraken API errors
         Verify API keys in .env file
         Check API permissions (trading enabled)
 
-####CUDA out of memory (Jetson)
+#### CUDA out of memory (Jetson)
         Reduce batch size in training parameters
         Use smaller sequence length
 
-####Logs and Debugging
+#### Logs and Debugging
 
     Check console output for decision logic
     TensorBoard logs in ./trading_logs/
     Trade history saved to trade_history.csv
 
-###🤝 Contributing
+### 🤝 Contributing
    Fork the repository
    Create a feature branch (git checkout -b feature/amazing-feature)
    Commit your changes (git commit -m 'Add amazing feature')
    Push to the branch (git push origin feature/amazing-feature)
    Open a Pull Request
 
-###📄 License
+### 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-###🙏 Acknowledgments
+### 🙏 Acknowledgments
 
    Kraken for API access
    Hugging Face for Transformers library
    TA-Lib for technical indicators
    PyTorch for deep learning framework
 
-##Happy Trading! 📈✨
+## Happy Trading! 📈✨
 
-####Take your time - good trading bots need room to breathe and learn! The double optimization + fee awareness should give much more reliable results.
+#### Take your time - good trading bots need room to breathe and learn! The double optimization + fee awareness should give much more reliable results.
 
 See you in (hopefully) the profits! 💰😎
 
