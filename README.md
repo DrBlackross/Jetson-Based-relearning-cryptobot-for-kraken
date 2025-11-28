@@ -6,6 +6,11 @@
 
 (I reworked this from my other script for a raspberrypi, jetson is MUCH faster once you get torch properly installed)
 
+## BTW, this is the kraken test address DBeziNpJSnRqvhJYQxgnVv5Lfc62BTd5WW 
+##### /\ (in case you want to track it, 11/28/25 is my latest top up with a new updated version of the script i'll post here if it works) /\
+
+
+
 [transformer-base-Ai-kraken](http://https://github.com/DrBlackross/transformer-base-Ai-kraken "transformer-base-Ai-kraken")
 
 ## This Script is a AI-powered cryptocurrency trading bot in python featuring **double optimization**, **fee-aware trading**, and **real-time web dashboard**. Built with Transformer architecture and optimized for aggressive trading strategies on a Jetson Nano Orin.
