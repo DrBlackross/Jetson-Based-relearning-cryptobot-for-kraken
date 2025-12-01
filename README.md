@@ -270,3 +270,7 @@ See you in (hopefully) the profits! 💰😎
 *P.S. The bot will automatically retrain every 6 hours with fresh, fee-aware data - it just gets smarter over time!*
 
 Remember: Past performance is not indicative of future results. Always test with paper trading first.
+
+
+*Side Note... i'm trying to have a reasoning model double check the rsi based transformer model. i'm not having the best of luck yet (see below) for a V 2.0 version of the script.
+<img width="840" height="914" alt="image" src="https://github.com/user-attachments/assets/3fb64781-a4e5-42ab-a691-fc4773b8c36e" />
