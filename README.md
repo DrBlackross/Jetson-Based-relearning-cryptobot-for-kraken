@@ -201,7 +201,7 @@ Overnight, this is what I woke up to...
     Use at your own risk
 ### Stressing this again here
 (NOTE: I use my kraken account as a 'control group' for experimenting in crypto trading, and it is usually seeded from my Coinbase with 100 DOGE when I start these bots, its a CYA, AND IS ISOLATED FROM MY MAIN ACCOUNTS!)
-##### (ALWAYS Cover Your $ss, CYA, do not risk what you can't lose)
+##### (ALWAYS Cover Your A$$, CYA, do not risk what you can't lose)
 
 ### 📊 Performance Metrics
 
