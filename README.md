@@ -17,7 +17,9 @@
 
 ## Key things:
 Jetson Nano: You might need to build some packages from source
+
 CUDA Support: PyTorch should (keyword) automatically detect your Jetson's GPU
+
 Memory: The bot is optimized for Jetson's limited RAM
 
 ## 🚀 Features
