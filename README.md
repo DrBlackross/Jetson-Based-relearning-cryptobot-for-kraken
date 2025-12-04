@@ -277,3 +277,15 @@ Remember: Past performance is not indicative of future results. Always test with
 *Side Note... I'm trying to have a reasoning model double check the rsi based transformer model. Not having the best of luck yet (see below), the script posted here without the added reasoning just works better IMHO, but I was working on this for a V2.0 version of the script.
 
 <img width="840" height="914" alt="image" src="https://github.com/user-attachments/assets/3fb64781-a4e5-42ab-a691-fc4773b8c36e" />
+
+(this is fun, but i think its almost done)
+this new version of the script should ("should" being a lose term, anyway still testing)
+Recognize:
+
+    ✅ Portfolio is too heavy in DOGE (needs rebalancing)
+
+    ✅ But market says DON'T SELL (RSI at 0.30 is extremely oversold)
+
+    ✅ Can't BUY because not enough USDT
+
+    ✅ So it correctly does nothing (HOLDs)
